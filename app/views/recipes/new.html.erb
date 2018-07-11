@@ -6,15 +6,15 @@
   <%= f.fields_for :ingredients do |ingredient_attributes| %>
 
       <%= ingredient_attributes.text_field :attributes_0_name %>
-      
+
       <%= ingredient_attributes.text_field :attributes_0_quantity  %>
       <br>
       <%= ingredient_attributes.text_field :attributes_1_name %>
-      
+
       <%= ingredient_attributes.text_field :attributes_1_quantity  %>
       <br>
       <%= ingredient_attributes.text_field :attributes_2_name %>
-      
+
       <%= ingredient_attributes.text_field :attributes_2_quantity  %>
 
   <% end %>
